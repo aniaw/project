@@ -1,4 +1,15 @@
-/**
- * Created by Ania on 2016-02-27.
- */
-var app;
+(function ()
+{
+    'use strict';
+
+    window.app = {
+
+        getDescendingNumbers: function (start, stop)
+        {
+            if (typeof start !== 'number' || typeof stop !== 'number' || start < stop) {
+                return false;
+            }
+        }
+    };
+})();
+
